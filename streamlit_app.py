@@ -6,6 +6,7 @@ from sklearn.preprocessing import StandardScaler
 
 st.title("My First ML App")
 st.write("Experiments on Streamlit")
+st.image("https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Machine+Learning+R/iris-machinelearning.png")
 
 if st.button("Celebrate!"):
     st.balloons()
