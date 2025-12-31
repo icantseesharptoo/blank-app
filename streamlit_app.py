@@ -1,6 +1,9 @@
 import streamlit as st
 
-st.title("🎈 My new app")
+st.title("My First ML App")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "Experiments on Streamlit"
 )
+
+if st.button("Celebrate!"):
+    st.balloons()
